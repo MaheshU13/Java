@@ -1,0 +1,14 @@
+# Difference between architecture neutral and portable in java -- 5/12/2023
+
+" ARCHITECTURE NEUTRAL "
+
+Java is architecture neutral because there are no implementation dependent features, for example, the size of primitive types is fixed.
+The compiler will generate an architecture-neutral object file meaning that compiled Java code (bytecode) can run on many processors given the presence of a Java runtime.
+it means the java program can be run on any processor irrespective of its vendor and architecture. so it avoids rebuilding problem.
+This architecture-neutral feature allows Java programs to be written once and run anywhere (often abbreviated as "WORA"). Developers can create applications without worrying about the underlying hardware or operating system.
+
+" PORTABLE "
+"Portable" means that a program written to run on one operating system works on another operating system without changing anything. With Java, you don't even have to recompile the source code; a *.class file compiled on Windows, for example, works on Linux, Mac OS X or any other OS for which you have a Java virtual machine available.
+A programming language/technology is said to be purely portable if it satisfies the two features Platform-independent and Architecture neutral.
+Portability is a significant advantage for developers because it reduces the effort required to deploy and maintain applications across different platforms. It also simplifies the distribution of software, as a single compiled Java program can be distributed and executed on various devices and operating systems.
+Java eliminates this issue by defining standard behavior that will apply to the data types across all platforms. Java specifies the sizes of all its primitive data types and the behavior of arithmetic on them.
