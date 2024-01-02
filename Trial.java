@@ -15,7 +15,7 @@ class Trial {
         boolean value = true;
 
        
-        String data = "Hello World";
+        String data = "Hello World"; 
 
         
         System.out.println("Integer Value: " + var1);
@@ -28,3 +28,22 @@ class Trial {
         System.out.println("String Value: " + data);
     }
 }
+
+
+
+/* 
+OUTPUT:
+
+C:\Users\User1\Desktop>javac Trial.java
+
+C:\Users\User1\Desktop>java Trial
+Integer Value: 25
+Short Value: 50
+Long Value: 90
+Float Value: 3.2
+Double Value: 9.15
+Character Value: A
+Boolean Value: true
+String Value: Hello World
+
+*/
