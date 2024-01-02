@@ -61,6 +61,7 @@ class convert {
         System.out.println("Byte to Short Value: " + shortValue);
         System.out.println("Char Value: " + ch);
         System.out.println("Char to Integer Value: " + value);
+	System.out.println("Double Value: " + doubleValue);
 	System.out.println("Double to Integer Value: " + num);
     }
 }
@@ -75,6 +76,7 @@ Byte Value: 90
 Byte to Short Value: 90
 Char Value: A
 Char to Integer Value: 65
+Double Value: 45.10
 Double to Integer Value: 45
 
 */
