@@ -12,7 +12,7 @@ public class Dollar {
     }
 
    
-    private static void Pattern(int currentRow, int totalRows) {
+    public static void Pattern(int currentRow, int totalRows) {
         if (currentRow > totalRows) {
             return;
         }
